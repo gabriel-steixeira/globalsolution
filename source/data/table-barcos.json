@@ -1,0 +1,81 @@
+{
+    "header": [
+      {
+        "name": "id",
+        "title": "ID",
+        "size": 50,
+        "sortable": true,
+        "sortDir": "asc",
+        "format": "number"
+      },
+      {
+        "name": "name",
+        "title": "Nome",
+        "size": 100,
+        "sortable": true,
+        "format": "string"
+      },
+      {
+        "name": "status",
+        "title": "Status",
+        "size": 200,
+        "sortable": true
+      },
+      {
+        "name": "capacity",
+        "title": "Capacidade máxima",
+        "sortable": true,
+        "size": 80
+      },
+      {
+        "name": "peso",
+        "title": "Capacidade atual",
+        "sortable": true,
+        "size": 80
+      },
+      {
+        "name": "percentOcupattion",
+        "title": "Percentual de carga",
+        "sortable": true,
+        "size": 80
+      },
+      {
+        "name": "start",
+        "title": "Início de operação",
+        "sortable": true,
+        "size": 50,
+        "format": "date",
+        "formatMask": "dd/mm/yyyy"
+      },
+      {
+        "name": "start",
+        "title": "Fim de operação",
+        "sortable": true,
+        "size": 50,
+        "format": "date",
+        "formatMask": "dd/mm/yyyy"
+      }
+    ],
+    "data": [
+      [
+        1,
+        "<a href='#barco1' class='barco'>NB-Clean01</a>",
+        "Retornando para o posto...",
+        "300kg",
+        "294kg",
+        "98%",
+        "31/12/2017",
+        ""
+      ],
+      [
+        2,
+        "<a href='#barco2' class='barco'>NB-Clean02</a>",
+        "Necessita de manutenção",
+        "300kg",
+        "60kg",
+        "20%",
+        "13/06/2018",
+        ""
+      ]
+    ]
+}
